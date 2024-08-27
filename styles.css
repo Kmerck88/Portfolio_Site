@@ -32,6 +32,26 @@ section {
     margin: 1rem 0;
 }
 
+#about {
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+#projects {
+    background-color: #fff3e0;
+}
+
+#contact {
+    background-color: #e8f5e9;
+}
+
 .project {
     background-color: #fff;
     padding: 1rem;
@@ -48,4 +68,12 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
 }
