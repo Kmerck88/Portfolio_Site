@@ -48,8 +48,13 @@ section {
     background-color: #fff3e0;
 }
 
-#contact {
+.contact {
     background-color: #e8f5e9;
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    .contact li {
+        margin-bottom: 10px; /* Adds some space between items */
+    }
 }
 
 .project {
@@ -60,15 +65,12 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+#footer .copyright {
+    color: #9fa3a6;
+    font-size: 0.9em; }
+    #footer .copyright a {
+    color: inherit; }
+  
 
 a {
     color: #007bff;
